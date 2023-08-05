@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Formulario</title>
+        </head>
+        <body>
+                <form action="resultados.html" method="GET"><!--action(atributo) a donde queremos enviar el resultado
+                "GET" puedo gestionar con esa inf
+                "POST", espero el servidor hace alguna action(crear usuario, cbase de datos) con las inf -->
+                        <div>
+                                <label for="nombreusuario(id)" > Nombre de usuario</label> de usuario
+                                <input type="text" name="nombreusuario" id="nombreusuario" required /> <!-- for->id
+                                                                                                        "required": obliga a completar -->
+                        </div>
+                        <div>
+                                <label for="password">password</label> 
+                                <input type="password" name="password" id="password" required />
+                        </div>
+                        <br>
+                        <div>
+                                <label for="email">Cual es tu emial</label> 
+                                <input type="email" name="email" id="email"  />
+                        </div>
+                        <br>
+                        <div>
+                                <label for="edad">Cual es tu edad</label> 
+                                <input type="number" name="edad" id="edad" min="0"  max="200" step="2" /><!--"min" minimo de un numero
+                                                                                                        "step": avanza con 2-->
+                        </div>
+                        <br>
+                        <div>
+                                <label for="nacimiento">Cual es tu fecah de nacimiento</label> 
+                                <input type="date" name="nacimiento" id="nacimiento"  />
+                        </div>
+                        <br>
+                        <div>
+                                <label for="comentarios">Comentario</label>
+                                <textarea name="comentarios" id="comentarios"></textarea>
+                        </div>
+                        <br>
+                        <button type="reset"> Reset</button><!--Resetear todo el formualario-->
+                        <button type="submit" >Enivar</button> <!--Enviar el resultado directamente-->
+                </form>
+        </body>
+</html>
