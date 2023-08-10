@@ -1,0 +1,31 @@
+h1 {
+        color: blue;
+}
+/*Estoy probando colores y fuente*/
+p {
+        color: red;
+        font-size: 16pt;
+        
+}
+
+#primera-noticia {/*# selector de id*/
+        color: green;
+        font-size: 12pt;
+}
+
+#segunda-noticia {
+        color: aqua;
+}
+
+.encabezado { /*selector de class*/
+        font-size: 24pt;
+        text-transform: uppercase;
+}
+
+*.warning{ /*slector universal*/
+        color: red;
+}
+
+.autor, .fecha, .ubic {
+        text-decoration: underline;
+}
