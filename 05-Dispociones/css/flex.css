@@ -1,0 +1,32 @@
+/*https://codepen.io/enxaneta/full/adLPwv/*/
+.flex{
+        display: flex;/*Por defecto ordena esos bloques */
+        flex-direction: row-reverse;/*flex-direction: Define cual es eje principal*/
+        background-color: yellow;
+        height: 300px;
+        justify-content: space-around;
+        align-items: center;/*STRETCH: Por defecto, los contenedores tienen mismas alturas*/
+        /*flex-wrap: wrap;/* wrap mantiene la dimension
+                          nowrap reduce la dimension al medida de achicarse*/*/
+}
+
+.contenido-1 {
+        background-color: white;
+        /* height: 200px; */
+        width: 100px;
+        border: 1px solid blue;
+}
+
+.contenido-2 {
+        background-color: white;
+        /* height: 200px; */
+        width: 100px;
+        border: 1px solid blue;
+}
+
+.contenido-3 {
+        background-color: white;
+        /* height: 200px; */
+        width: 100px;
+        border: 1px solid blue;
+}
