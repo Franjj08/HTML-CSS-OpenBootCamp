@@ -1,0 +1,39 @@
+/*Estilores para colores*/
+.colores {
+        color: orangered;
+}
+
+.color-hexadecimal {
+        color:#C5AFA4
+}
+
+.color-rgb {
+        color: rgb(100, 0, 200);
+}
+.color-rgba {
+        color: rgba(1000, 0, 10, 100000);
+}
+
+/*Fondo*/
+.fondo {
+        /*background-color: cornflowerblue;*/
+        background-image: url(https://d33wubrfki0l68.cloudfront.net/89a052ddc6d368ce93d9067e8444c36a3558efe7/f9e10/static/triangle_background2-6eded4a7ad80c007fb65f02c828e5dd0.jpg);
+        background-position: left bottom;
+}
+/*Tamanios*/
+.ancho {
+        background-color: chocolate;
+        width: 100px;
+}
+
+.alto{
+        background-color: antiquewhite;
+        height: 200px;
+}
+.tarjeta{
+        border-style: solid;
+        border-color: rgb(150, 150, 150);
+        border-width: 1px;
+        /*border-top: none;*/
+        padding: 10px 20px 30px 40px;/*padding, border,margin usar la inspeccionar de web y se ve mejor , en la direccion del horario*/
+}
