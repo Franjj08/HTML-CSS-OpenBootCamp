@@ -4,6 +4,9 @@
         background-color: aquamarine;
 }
 
+div{
+        background-color: blue;
+}
 span.frase {
         font-style: italic;
 }
