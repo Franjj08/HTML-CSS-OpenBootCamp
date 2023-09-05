@@ -1,13 +1,13 @@
 /*https://codepen.io/enxaneta/full/adLPwv/*/
 .flex{
-        display: flex;/*Por defecto ordena esos bloques */
+         display: flex; /*Por defecto ordena esos bloques */
         flex-direction: row-reverse;/*flex-direction: Define cual es eje principal*/
         background-color: yellow;
         height: 300px;
         justify-content: space-around;
         align-items: center;/*STRETCH: Por defecto, los contenedores tienen mismas alturas*/
         /*flex-wrap: wrap;/* wrap mantiene la dimension
-                          nowrap reduce la dimension al medida de achicarse*/*/
+                        nowrap reduce la dimension al medida de achicarse*/
 }
 
 .contenido-1 {

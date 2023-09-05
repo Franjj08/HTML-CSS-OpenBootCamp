@@ -15,6 +15,8 @@
         flex-wrap: wrap;
         gap: 10px;
 }
+/* wrap: Los elementos flexibles se envuelven en una nueva línea si no hay suficiente espacio en la dirección principal. Esto significa que si los elementos no caben en una fila, se mueven automáticamente a la siguiente fila. */
+/* nowrap: Este es el valor predeterminado. Los elementos flexibles se ajustan a lo largo de la dirección principal del contenedor y no se envuelven en una nueva línea. Pueden encogerse para caber si es necesario. */
 
 .imagen-galeria {
         width:150px;
