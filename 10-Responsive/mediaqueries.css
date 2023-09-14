@@ -1,0 +1,57 @@
+h1 {
+    color:  red;
+    font-size: 4rem;
+}
+
+p{
+    color: black;
+    font-size: 2rem;
+}
+/*los que yo puse solo para dispositivo que especifique ese momento
+all: afeceta todos dispositvos
+screen: en una pantalla
+print: un dispositivo de impresor
+speech: no usa tanto
+*/
+/* screen and (max-width:576px): cuando esta en una pantalla y menor que 576px*/
+/*ctrl+p = imprimir*/
+/* @media all and (max-width:576px){
+    h1 {
+        color: blue;
+    }
+} */
+/*==*/
+/* @media (max-width:576px){
+    h1 {
+        color: blue;
+    }
+} */
+
+@media (min-width:576px) {
+    h1{
+        color: green;
+    }
+}
+
+@media (min-width: 995px) {
+    h1{
+        color: blue;
+    }
+}
+/*
+0-576:red
+576-995:green
+995+:blue
+*/
+/*caso de or*/
+@media (min-height: 300px), (min-width: 1100px){
+    p{
+        color :cyan
+    }
+}
+/*landscape: cuando altura es menor que anchura*/
+@media(orientation: landscape) and (min-height:400px){
+    p {
+        color: brown;
+    }
+}
