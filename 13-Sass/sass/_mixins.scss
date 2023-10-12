@@ -1,0 +1,8 @@
+$text-color:#2b2b2b;//variabe
+//mixin para reutilizar el codigo
+@mixin formato-text($bg-color:#f1f1f1) { //f1f1f1 por defecto
+    color: $text-color;
+    width: 50rem;
+    text-transform: uppercase;
+    background-color: $bg-color;
+}
